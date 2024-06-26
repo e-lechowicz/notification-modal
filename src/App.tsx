@@ -1,7 +1,12 @@
 import React from 'react';
+import HomePage from './pages/HomePage/HomePage.tsx';
 
 const App: React.FC = () => {
-  return <>dupaaa</>;
+  return (
+    <>
+      <HomePage />
+    </>
+  );
 };
 
 export default App
