@@ -6,20 +6,20 @@ Notification Modal is a simple user interface component that displays notificati
 
 To run this project locally, follow these steps:
 
-1. **Clone the repository:**
+1. Clone the repository:
    ```sh
    git clone <repository-url>
    ```
 2. Navigate into the project directory:
-    ```sh
-    git clone <repository-url>
-    ```
+   ```sh
+   cd notification-modal
+   ```
 3. Install dependencies:
-    ```sh
-   git clone <repository-url>
-    ```
+   ```sh
+   npm install
+   ```
 4. Start the application:
-    ```sh
-   git clone <repository-url>
-    ```
-5. Open http://localhost:3000 in your web browser to view the application.
+   ```sh
+   npm run dev
+   ```
+5. Open http://localhost:5174 in your web browser to view the application.
