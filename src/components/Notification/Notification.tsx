@@ -47,7 +47,7 @@ const Notification: React.FC<Props> = ({ id, type, message, date, read = false, 
   return (
     <div className={`flex justify-between rounded-xl h-28 shadow-sm mb-2 mr-5 pr-5 hover:bg-gray-200
         ${!read && 'bg-gray-100'}`}>
-        <div className='flex items-center rounded-xl pl-5 cursor-pointer w-full' onClick={handleNotificationClick}>
+        <div className='flex items-center rounded-xl pl-5 cursor-pointer max-w-[600px]' onClick={handleNotificationClick}>
             <div
                 className={`p-8 bg-no-repeat bg-contain ${notificationTypeMap[type].className}`}
             />
