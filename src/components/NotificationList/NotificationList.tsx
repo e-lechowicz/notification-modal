@@ -8,7 +8,7 @@ interface Props {
 }
 
 const NotificationList: React.FC<Props> = ({ notifications, markAsRead }) => (
-    <div>
+    <div className='no-scrollbar overflow-y-auto max-h-[600px]'>
         {notifications?.map(notification => (
             <Notification key={notification.id} read={notification.read} {...notification} markAsRead={markAsRead}/>
         ))}
