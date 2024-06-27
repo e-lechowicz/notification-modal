@@ -13,4 +13,3 @@ export const markAsRead = (id: string): MarkAsReadNotificationActionType => ({
 export const markAllAsRead = (): MarkAllAsReadNotificationActionType => ({
     type: MARK_ALL_AS_READ,
 });
-

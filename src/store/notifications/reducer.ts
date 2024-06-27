@@ -90,4 +90,3 @@ const notificationsReducer = (state = initialState, action: NotificationActionTy
 };
 
 export default notificationsReducer;
-

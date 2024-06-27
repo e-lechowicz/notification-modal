@@ -4,7 +4,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'user-icon': "url('/src/images/user-icon.svg')",
+        'user-icon': "url('/public/images/user-icon.svg')",
+        'bell-icon': "url('/public/images/bell-icon.svg')",
+        'pause-icon': "url('/public/images/pause-icon.svg')",
+        'fire-icon': "url('/public/images/fire-icon.svg')",
+        'document-icon': "url('/public/images/document-icon.svg')",
       }
     },
   },
