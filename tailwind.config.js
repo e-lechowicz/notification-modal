@@ -9,6 +9,7 @@ export default {
         'pause-icon': "url('/public/images/pause-icon.svg')",
         'fire-icon': "url('/public/images/fire-icon.svg')",
         'document-icon': "url('/public/images/document-icon.svg')",
+        'check-icon': "url('/public/images/double-check.svg')",
       }
     },
   },
