@@ -8,7 +8,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/e-lechowicz/notification-modal.git
    ```
 2. Navigate into the project directory:
    ```sh
